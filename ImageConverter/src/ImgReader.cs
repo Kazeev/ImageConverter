@@ -34,7 +34,7 @@ namespace ImageConverter
                     s += massPix[i, j] + (j == massPix.GetLength(0)-1 ? "":",");
                 }
 
-                s += "}" + (i == massPix.GetLength(1)? "":",");
+                s += "}" + (i == massPix.GetLength(1)-1? "":",");
             }
 
             s += "}";
