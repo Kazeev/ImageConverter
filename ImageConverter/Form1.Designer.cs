@@ -58,25 +58,23 @@
             // 
             // cbGry
             // 
-            this.cbGry.Checked = true;
-            this.cbGry.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbGry.Enabled = false;
             this.cbGry.Location = new System.Drawing.Point(12, 220);
             this.cbGry.Name = "cbGry";
             this.cbGry.Size = new System.Drawing.Size(85, 24);
             this.cbGry.TabIndex = 3;
             this.cbGry.Text = "Gry";
             this.cbGry.UseVisualStyleBackColor = true;
+            this.cbGry.Click += new System.EventHandler(this.cbGry_Click);
             // 
             // cbRGB
             // 
-            this.cbRGB.Enabled = false;
             this.cbRGB.Location = new System.Drawing.Point(113, 220);
             this.cbRGB.Name = "cbRGB";
             this.cbRGB.Size = new System.Drawing.Size(85, 24);
             this.cbRGB.TabIndex = 4;
             this.cbRGB.Text = "RGB";
             this.cbRGB.UseVisualStyleBackColor = true;
+            this.cbRGB.Click += new System.EventHandler(this.cbRGB_Click);
             // 
             // cbHEX
             // 
