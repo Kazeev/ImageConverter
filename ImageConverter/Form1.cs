@@ -38,6 +38,7 @@ namespace ImageConverter
             g.Dispose(); 
             
             save.Enabled = true;
+            
         }
         
         private void save_Click(object sender, EventArgs e)
@@ -57,6 +58,7 @@ namespace ImageConverter
                 open.Enabled = false;
                 cbRGB.Checked = false;
                 cbGry.Checked = false;
+                
             }
         }
 
